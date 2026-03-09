@@ -10,9 +10,6 @@ public class App {
     public static void main(String[] args) {
 
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--no-sandbox");
-        options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--remote-allow-origins=*");
 
         WebDriver driver = new ChromeDriver(options);
 
